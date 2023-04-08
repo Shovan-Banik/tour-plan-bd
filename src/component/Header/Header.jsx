@@ -13,17 +13,17 @@ const Header = () => {
                 <h2 className='text-2xl font-bold text-red-50'>TourPlanBD</h2>
                 </div>
             </div>
-            <nav className='flex font-bold text-xl'>
-                <li className='mr-12 list-none text-white'>
+            <nav className='flex font-bold text-xl px-12'>
+                <li className='md:mr-12 mr-4 list-none text-white'>
                 <NavLink to='/' className={({isActive})=>(isActive? 'active': '')}>Home</NavLink>
                 </li>
-                <li className='mr-12 list-none text-white'>
+                <li className='md:mr-12 mr-4 list-none text-white'>
                 <NavLink to='/places' className={({isActive})=>(isActive? 'active': '')}>Places</NavLink>
                 </li>
-                <li className='mr-12 list-none text-white'>
+                <li className='md:mr-12 mr-4 list-none text-white'>
                 <NavLink to='/about' className={({isActive})=>(isActive? 'active': '')}>About</NavLink>
                 </li>
-                <li className='mr-12 list-none text-white'>
+                <li className='md:mr-12 mr-4 list-none text-white'>
                 <NavLink to='/contact' className={({isActive})=>(isActive? 'active': '')}>Contact</NavLink>
                 </li>
             </nav>

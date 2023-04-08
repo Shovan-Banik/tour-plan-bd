@@ -28,9 +28,9 @@ const Places = () => {
         setCart(remaining);
     }
     return (
-        <div className='mt-12 grid grid-cols-4 px-24'>
+        <div className='mt-12 md:grid md:grid-cols-4 md:px-24 px-4'>
             <div className='col-span-3'>
-                <div className='grid grid-cols-2'>
+                <div className='md:grid grid-cols-2'>
                     {
                         places.map(place => <Place
                             key={place.id}
@@ -41,7 +41,7 @@ const Places = () => {
                 </div>
             </div>
             <div className='col-span-1'>
-                <div className='bg-indigo-600 text-white fixed top-32 p-8'>
+                <div className='bg-indigo-600 text-white md:fixed top-32 p-8'>
                     <Booking
                         cart={cart}
                         removeBooking={removeBooking}

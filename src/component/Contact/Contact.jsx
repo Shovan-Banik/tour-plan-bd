@@ -28,9 +28,9 @@ const Contact = () => {
     return (
         <div className="md:grid grid-cols-2">
             <div>
-                <Lottie className='md:h-2/3' animationData={contact} loop={true} />
+                <Lottie className='md:h-[600px] mt-12' animationData={contact} loop={true} />
             </div>
-            <div className="pt-24">
+            <div className="pt-32">
                 <h2 className="text-5xl text-indigo-600 font-semibold text-center mb-8">Contact Us</h2>
                 <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
                     <div className="mb-4">

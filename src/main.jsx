@@ -11,11 +11,14 @@ import Main from './component/layout/Main';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import Places from './component/Places/Places';
+import ErrorPage from './component/ErrorPage/ErrorPage';
+
 
 const router=createBrowserRouter([
   {
     path: '/',
     element: <Main></Main>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path: '/',
@@ -23,7 +26,8 @@ const router=createBrowserRouter([
       },
       {
         path: 'places',
-        element: <Places></Places>
+        element: <Places></Places>,
+        loader: ()=>fetch('places.json')
       },
       {
         path: 'about',
@@ -36,7 +40,6 @@ const router=createBrowserRouter([
     ]
   }
 ])
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />

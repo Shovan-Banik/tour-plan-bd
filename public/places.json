@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "placeName": "Cox’s Bazar",
+      "duration": "3 days",
+      "price": 15000,
+      "img": "https://1.bp.blogspot.com/-ysovcxw_Szw/YFhGajIirkI/AAAAAAAAFg8/od4MdJcD0sYPBqkd3KWeTGxCLtmfxlD1ACLcBGAsYHQ/s575/coxsbaza-development.jpg"
+    },
+    {
+      "id": 2,
+      "placeName": "Sundarbans",
+      "duration": "2 days",
+      "price": 10000,
+      "img": "https://media.istockphoto.com/id/1223269800/photo/deers-having-food.jpg?s=612x612&w=0&k=20&c=QTgIDPu8xzrKh_zrPkQafqq4Kfg-Gk1SgnAiLiQYO9M="
+    },
+    {
+      "id": 3,
+      "placeName": "Srimangal",
+      "duration": "2 days",
+      "price": 8000,
+      "img": "https://chokkor.com/wp-content/uploads/2018/10/Sreemangal-1.jpg"
+    },
+    {
+      "id": 4,
+      "placeName": "Rangamati",
+      "duration": "3 days",
+      "price": 12000,
+      "img": "https://t4.ftcdn.net/jpg/03/59/57/17/360_F_359571781_ndNrO8n4yaX5hg7U0BcQmP9zdz1kefpH.jpg"
+    },
+    {
+      "id": 5,
+      "placeName": "Bandarban",
+      "duration": "2 days",
+      "price": 9000,
+      "img": "https://www.newagebd.com/files/records/news/202211/186252_190.jpg"
+    },
+    {
+      "id": 6,
+      "placeName": "Kuakata",
+      "duration": "2 days",
+      "price": 6000,
+      "img": "https://dailyasianage.com/library/1492494380_6.jpg"
+    },
+    {
+      "id": 7,
+      "placeName": "Sajek",
+      "duration": "3 days",
+      "price": 9000,
+      "img": "https://tbbd-flight.s3.ap-southeast-1.amazonaws.com/blogZ0l0jH86lLizQsqRGUJkeJf-dNjfy-nT.jpg"
+    },
+    {
+      "id": 8,
+      "placeName": "Sylhet",
+      "duration": "2 days",
+      "price": 7000,
+      "img": "https://cdn.getyourguide.com/img/tour/5728ce3b7284b.jpeg/97.jpg"
+    },
+    {
+      "id": 9,
+      "placeName": "Chittagong",
+      "duration": "2 days",
+      "price": 7000,
+      "img": "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/0d/77/22/14/amiakhum.jpg"
+    },
+    {
+      "id": 10,
+      "placeName": "Paharpur",
+      "duration": "1 day",
+      "price": 5000,
+      "img": "https://cdn.britannica.com/68/178168-050-EED35840/Somapura-Mahavira-Paharpur-Bangladesh.jpg"
+    }]
